@@ -1,0 +1,66 @@
+https://regal-rolypoly-1cff9e.netlify.app/
+🔍 ¿Qué es "Inspeccionar código"?
+Inspeccionar código es una función que permite a cualquier persona ver el contenido detrás de una página web. Es como quitarle la "máscara" a la página para ver cómo está hecha por dentro. Esto se hace mediante las herramientas de desarrollo (DevTools), que vienen integradas en la mayoría de navegadores modernos como Google Chrome, Microsoft Edge, Firefox o Brave.
+
+🧭 ¿Cómo se accede a DevTools?
+Hay varias formas:
+
+Haz clic derecho en cualquier parte de la página.
+Selecciona la opción “Inspeccionar” o “Inspect”.
+También puedes usar el atajo del teclado:
+En Windows/Linux: Ctrl + Shift + I
+En Mac: Cmd + Option + I
+También puedes presionar directamente la tecla F12 en la mayoría de los navegadores.
+Una vez abierto, verás una ventana dividida, usualmente a la derecha o en la parte inferior de la pantalla.
+
+📁 ¿Qué puedes ver en DevTools?
+1. Elements (Elementos)
+Aquí puedes ver el HTML de la página en tiempo real.
+Puedes hacer clic en cualquier elemento del código para ver su contenido.
+Puedes editar texto o estructura directamente y ver los cambios reflejados en vivo.
+2. Styles (Estilos)
+Se encuentra al lado derecho cuando estás en la pestaña Elements.
+Aquí puedes ver el CSS aplicado al elemento seleccionado.
+Puedes modificar propiedades, agregar nuevas, o quitar estilos.
+Es muy útil para probar diseños rápidamente sin tocar los archivos originales.
+3. Console (Consola)
+Aquí puedes ver errores o mensajes del navegador.
+También puedes ejecutar código JavaScript directamente.
+Es ideal para hacer pruebas rápidas, revisar variables, o depurar.
+4. Network (Red)
+Te muestra todas las peticiones que hace la página: imágenes, scripts, peticiones a APIs, etc.
+Puedes ver cuánto tarda cada archivo en cargarse.
+Muy útil para diagnosticar problemas de rendimiento o errores de carga.
+5. Sources (Fuentes)
+Aquí puedes ver y depurar los archivos originales de JavaScript y otros recursos.
+Puedes poner puntos de interrupción (breakpoints) para seguir la ejecución del código paso a paso.
+6. Performance (Rendimiento)
+Registra la actividad de la página y analiza cuellos de botella.
+Puedes ver en qué parte del proceso la página se ralentiza.
+7. Application (Aplicación)
+Muestra almacenamiento local: cookies, localStorage, sessionStorage, indexedDB.
+Puedes borrar caché, revisar claves guardadas, ver el estado de una sesión.
+8. Lighthouse / Core Web Vitals
+Te da un análisis automático de rendimiento, accesibilidad, SEO y más.
+📲 Funciones adicionales
+Modo móvil:
+Activa con Ctrl + Shift + M o haciendo clic en el ícono de dispositivo.
+Permite probar cómo se ve la página en distintos tamaños de pantalla (iPhone, iPad, Android, etc.).
+Puedes girar la pantalla, simular la velocidad de red, y más.
+Selector de elementos:
+Activa con Ctrl + Shift + C.
+Te permite pasar el mouse por encima de la página y ver el código asociado a cada parte (botones, textos, imágenes...).
+⚙️ Ejemplos prácticos
+¿Tu botón no se ve bien? Haz clic derecho → inspeccionar → cambia el color en el panel de estilos.
+¿Una imagen no carga? Ve a Network → busca por “img” → revisa si dio error 404.
+¿Un evento no se ejecuta? Usa Console → pon console.log() en el JS o revisa errores.
+¿Quieres ver cómo funciona un menú desplegable? Revisa el código y los estilos al pasar el mouse o al hacer clic.
+🧪 Probar en vivo
+Cualquier cambio que hagas en DevTools no es permanente, solo afecta tu navegador temporalmente. Si recargas la página, todo vuelve al original. Por eso es ideal para hacer pruebas antes de modificar tu código real.
+
+✍️ Tips finales
+Usa Ctrl + P en Sources para buscar cualquier archivo rápidamente.
+Usa Ctrl + Shift + F para buscar una palabra o código en todos los archivos.
+Puedes arrastrar paneles para organizarlos como te guste.
+Puedes guardar cambios temporales usando snippets (fragmentos de código reutilizable).
+Si quieres, dime qué página o proyecto estás analizando, y te guío paso a paso en lo que estás buscando modificar o entender.
